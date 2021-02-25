@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+    <body>
+        <div id="valdecir">
+            <h1>{{nome}}</h1>
+            <p>{{profissao}}</p>
+            <p>{{contato}}</p>
+        </div>
+        
+        <script>
+            var app = new Vue({
+                el: "#valdecir",
+                data: {
+                    nome: "Lucas de Oliveira",
+                    profissao: "Dev Front End",
+                    contato: "contato@lucasdeoliveira.dev.br"
+                }
+            })
+        </script>
+    </body>
+</html>
