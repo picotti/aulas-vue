@@ -1,0 +1,18 @@
+{
+  "name": "aula-vue-js",
+  "version": "5.3.2",
+  "description": "este projeto é feito com as aulas",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "http-server"
+  },
+  "keywords": [
+    "html",
+    "vue",
+    "javascript",
+    "css"
+  ],
+  "author": "Lucas de Oliveira",
+  "license": "ISC"
+}
